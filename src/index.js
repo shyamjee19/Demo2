@@ -1,4 +1,5 @@
 import React from 'react';
+import '@testing-library/jest-dom';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './app';
