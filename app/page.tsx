@@ -1,10 +1,8 @@
-// src/App.js
-import React from 'react';
-import './app.css';
+import Image from "next/image";
 
-function App() {
+export default function Home() {
   return (
-    <div className="App">
+   <div className="App">
       <header className="App-header">
         <h1>Welcome to My React App</h1>
         <p>This is a simple React application with CI/CD pipeline.</p>
@@ -12,5 +10,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
